@@ -1,0 +1,14 @@
+{
+  "name": "bstest",
+  "version": "1.0.0",
+  "description": "LTS версия https://nodejs.org/",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
