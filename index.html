@@ -157,7 +157,7 @@
 
       </div>
 
-      <div class="col-xxl-2 col-xl-12 col-lg-6">
+      <div class="col-xxl-2 col-xl-12 col-lg-6 mb-5 mb-lg-0">
         <div class="card p-3">
           <h5>Contact Us</h5>
           <p><i class="fas fa-envelope"></i> email@example.com</p>
@@ -178,16 +178,16 @@
         </div>
       </div>
     </footer>
-
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
-    <div class="modal-dialog modal modal-dialog-centered">
+  <!-- Modal Window -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
 
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="myModal">Feedback From</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Feedback Form</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
@@ -195,7 +195,7 @@
           <form class="row g-3" action="" method="get">
             <div class="col-lg-6">
               <label class="form-label" for="login">Login</label>
-              <input class="form-control is-valid" type="login" id="login" placeholder="login">
+              <input class="form-control is-valid" type="text" id="login" placeholder="Login">
               <div class="valid-feedback">
                 Success
               </div>
@@ -217,7 +217,7 @@
 
             <div>
               <label class="form-label" for="email">Email</label>
-              <input class="form-control" type="password" id="email" placeholder="Email">
+              <input class="form-control" type="email" id="email" placeholder="Email">
             </div>
             <div>
               <button class="btn btn-outline-primary w-100" type="submit">Send</button>
